@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XY.Pay.WebMvc", "XY.Pay.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XY.WebAPI.Security.Core", "XY.WebAPI.Security.Core\XY.WebAPI.Security.Core.csproj", "{4F67666F-4FCF-48A3-96EA-7A874996BB32}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF1B87DD-DDEB-486E-AD2B-061C73F14237}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{4CE08B07-CB30-4E11-A9A0-4CD84C137BD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57A4B931-B690-4208-A5E0-2298392D8A06} = {4CE08B07-CB30-4E11-A9A0-4CD84C137BD0}
+		{394B6FA0-DB06-436C-9F96-4D71DCCBFDE2} = {4CE08B07-CB30-4E11-A9A0-4CD84C137BD0}
+		{44D02CEB-DD78-49B2-A6D8-6611FD693941} = {4CE08B07-CB30-4E11-A9A0-4CD84C137BD0}
+		{EBECFD10-C877-476D-82E8-3A6B5C4DEB44} = {4CE08B07-CB30-4E11-A9A0-4CD84C137BD0}
+		{4F67666F-4FCF-48A3-96EA-7A874996BB32} = {BF1B87DD-DDEB-486E-AD2B-061C73F14237}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B0058E6-C791-4672-A29D-B28DF01A53D3}
